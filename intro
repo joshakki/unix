@@ -13,4 +13,50 @@ Application deals in compatible language with humans
 kernel is the heart of the unix that interacts with the hardware in machine language.
 Shell helps in communicating between kernel and the applications.
  
+UNIX FILE SYSTEM -	Root directory is denoted as slash (/). it contains all the directories and their sub, sub sub directories.
+1.bin directory -it contains collection of various commands.
+2.unix - it is the kernel file of the system 
+3.lib - contains all the library functions 
+4.dev - it contains files for various input and output devices as in unix each device is stored as a file.
+5.etc - binary executable files required for system administration
+6.tmp - temperoary files are stored.
 
+touch command -it is used to create a new file of zero bytes we can also create several files at once by its help.
+ex - $ touch sample sample1 sample2 sample3
+if we want to add some lines to those files we need to enter 
+$ cat > sample
+and then add lines.
+to see the contents of the line 
+$ cat test
+
+to merge contents of two files 
+$ cat sample1 sample2 > sample
+
+to merge and original file should remain as it is
+$ cat sample1 sample2 >> sample
+to copy a file 
+$ cp sample1 sample2           
+but this also overwrites the sample2 file such that the original content of the sample2 is deleted and over written by sample1 
+
+delete a file or directory
+
+$ rm -i <file name> 
+takes confirmation before deleting a file 
+
+$ rm -r <file name> 
+ is used to delete a directory irrespective it is empty or not 
+
+$ rm -f <file name> 
+forcibly delete a file 
+
+$ mv sample sample1 
+changes the name of file from sample to sample1 
+
+$ mv /home/a/b/sample /home/a 
+moves a file from b to a 
+
+$ ls -a 
+it lists all of the file present in the working directory. it can also list the hidden files.
+
+
+	
