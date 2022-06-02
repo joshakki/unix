@@ -1,0 +1,16 @@
+Features of unix-
+
+1.Multiuser capability
+2.Multitasking capability
+3.Communication - unix devices can easily communicate with each other.
+4.Security - three levels of security 1.login and password 2.file can be given permission of read and write or only read or one can only reserve it fo r just his device 
+5.Portability
+
+Unix system organisation
+
+it is done in three layers Shell,Kernel,applications
+Application deals in compatible language with humans 
+kernel is the heart of the unix that interacts with the hardware in machine language.
+Shell helps in communicating between kernel and the applications.
+ 
+
