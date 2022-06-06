@@ -59,4 +59,30 @@ $ ls -a
 it lists all of the file present in the working directory. it can also list the hidden files.
 
 
+ls p* it shows the sub directory and the files of the directory that is having a p in its name.	
+
+ls -l  on entering this command we get
+
+total 86664
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 19:35 Desktop
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Documents
+drwxr-xr-x 5 joshiakki joshiakki     4096 Jun  2 15:01 Downloads
+-rw-rw-r-- 1 joshiakki joshiakki      694 May 23 19:53 engg
+-rw-rw-r-- 1 joshiakki joshiakki 88685600 May 10 05:42 google-chrome-stable_current_amd64.deb
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Music
+drwxrwxr-x 4 joshiakki joshiakki     4096 Jun  6 10:06 notes
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Pictures
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Public
+drwxrwxr-x 3 joshiakki joshiakki     4096 May 25 21:56 sample
+drwx------ 3 joshiakki joshiakki     4096 May 18 20:06 snap
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Templates
+-rw-rw-r-- 1 joshiakki joshiakki       41 Jun  4 15:28 token
+drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Videos
+
+total 86664 denotes the total number of disk blocks that the file in current directory have occupied is 86664.
+
+in next line leftmost character denotes the file type	
+
+
+
 	
