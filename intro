@@ -81,8 +81,36 @@ drwxr-xr-x 2 joshiakki joshiakki     4096 May 18 16:14 Videos
 
 total 86664 denotes the total number of disk blocks that the file in current directory have occupied is 86664.
 
-in next line leftmost character denotes the file type	
+in second line leftmost character denotes the file type	
+
+file type        meaning 
+   -             ordinary file 
+   d             Directory file 
+   c             character special file 
+   b             block special file 
+   l             symbolic link  
+   s             semaphore
+   p             named pipe 
+   m             shared memory file 		
 
 
+next nine character denotes the file read write permission that the user is having  
+then number of links,owner joshakki,group name,size of files in bytes,date and time of last modified and last is the file name.
 
-	
+$ ln sample sample1
+this command provides one extra link to open a sample file by the name of sample1.
+
+symbols        permissions       weightage
+ r               read               4
+ w               write              2
+ x               execute            1
+
+the rwxr-x--x is the permission listed for any file 
+
+it can be devided as rwx,r-x,--x
+ rwx denotes that file can be read written and execute by the owner and its weightage is 7.
+ r-x shows that file can only be read and execute but is not available to modify by any other member its weightage is 6. 
+ --x shows that all other can only execute the file and weightage is 1.
+
+		
+       		
