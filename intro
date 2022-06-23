@@ -112,5 +112,26 @@ it can be devided as rwx,r-x,--x
  r-x shows that file can only be read and execute but is not available to modify by any other member its weightage is 6. 
  --x shows that all other can only execute the file and weightage is 1.
 
-		
+to change the file permission we have chmod command.it changes mode of the file it is executed on.
+ex- chmod myfile 700
+
+umask 
+
+it is a command to know the default permission set for a file while creating it. if on entering umask command we get the reply as 0002.first zero shows that there is no change in permission for the owner. suppose a file is created then its default permission will be 777 - 002 = 775.
        		
+changing permission of a directory 
+when a intruder attempts to delete a file with permission of 754 he cannot but he can delete the directory containing the file which leads to the deletion of the file so to prevent this we need to add a sticky permission to the directory. 
+ 
+chmod 1754 mydir 
+this is the command to add directory permission with the sticky bit.
+the file permission then shows as drwxrw-r--t
+
+mkdir -p mkdir/a/b/c/d/e
+this command is used to create a directory and its sub directory at once.
+
+$bc 
+this command is used for calculation 
+ 10/2 * 2
+ 10
+ quit
+ 
