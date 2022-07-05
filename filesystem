@@ -1,0 +1,6 @@
+inode number - it is a number that works like index for unix.this index tells unix about the location of the file.
+
+stroage of files 
+each inode entry in the inode table consists of 13 addresses each numbered from 0 to 12,which specicfy completely where the file are stored.
+first 10 addresses point to 1 KB block.
+11th also contains an address of 1 KB block.this block do contain file instead it consists of 256 four byte slots which stores 256 more addresses.each of these 256 address can point to a 1 KB block.
